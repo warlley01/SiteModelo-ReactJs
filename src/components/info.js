@@ -3,19 +3,19 @@ import connect from '../img/connect.png'
 
 
 const Div = styled.div`
-    width: 300px;
+    width: 100%;
     height: 50px;     
-    
     margin-bottom: 50px;
     padding: 0;
+    display: flex;
+    justify-content: end;    
 `
 
 const H1 = styled.h1`   
-    color: #818181;
-    font-size: 28pt;
-    margin: 0;
+    color: #707070;
+    font-size: 42pt;
+    margin: 0 80px 0 0;
     padding: 0;
-    text-align: center;
 `
 /* const Img = styled.img`
     width: 35px;
@@ -27,15 +27,14 @@ const H1 = styled.h1`
 ` */
 
 const Square = styled.div`
-   border-radius: 30% 32% 50% 50% / 22% 21% 81% 77% ;    
-   width: 700px;
-   height: 700px;
-   margin-left: 200px;
-   margin-top: 20px;
-   /* background-color: #dadada; */
-   z-index: -1;
    position: absolute;
-  
+   z-index: -1;
+   border-radius: 50px;    
+   width: 700px;
+   height: 90px;
+   margin: -1px 30px 0 0;
+   background-color: #dbdbdb; 
+   padding: 0;
 `
 
 function Info(){

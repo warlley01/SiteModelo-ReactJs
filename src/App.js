@@ -16,6 +16,7 @@ import lupa from './img/lupa.png'
 import graph from './img/graph.png'
 import hand from './img/hand.png'
 import mix from './img/mix.png'
+import Footer from './components/footer'
 
 const LI = styled.li`
   margin: 0;
@@ -56,6 +57,7 @@ function App() {
           <LI><InfoCard img={mix} title="Award Winning" text="Image editing encompasses the processes of altering images, whether they are digital" /></LI>
         </ULcard>
       </Container>
+      <Footer />
     </div>
   );
 }
