@@ -9,6 +9,7 @@ const Div = styled.div`
     justify-content: center;
     font-size: 16pt;
     font-family: sans-serif;
+    margin-top: 80px;
 `
 
 function Footer() {
